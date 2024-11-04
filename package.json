@@ -1,0 +1,15 @@
+{
+  "name": "wdio-ts",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "^9.2.4",
+    "@wdio/local-runner": "^9.2.4",
+    "@wdio/mocha-framework": "^9.2.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "dependencies": {
+    "@evinced/webdriverio-sdk": "file:webdriverio-sdk-2.13.1.tgz"
+  }
+}
