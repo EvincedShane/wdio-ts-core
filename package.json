@@ -10,6 +10,6 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "dependencies": {
-    "@evinced/webdriverio-sdk": "file:webdriverio-sdk-2.13.1.tgz"
+    "@evinced/webdriverio-sdk": "2.13.1"
   }
 }
